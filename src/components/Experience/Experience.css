@@ -1,0 +1,41 @@
+#experience {
+    padding: 40px 20px;
+  }
+  
+  #experience h2 {
+    text-align: center;
+  }
+  
+  .timeline {
+    margin-top: 20px;
+    padding-left: 20px;
+    border-left: 3px solid #f5ba47;
+  }
+  
+  .timeline-item {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -9px;
+    top: 5px;
+    width: 12px;
+    height: 12px;
+    background-color: #f5ba47;
+    border-radius: 50%;
+  }
+  
+  .timeline-item h3 {
+    font-size: 1.2rem;
+    color: #f5ba47;
+  }
+  
+  .timeline-item p {
+    color: #dcdcdc;
+    line-height: 1.8;
+  }
+  

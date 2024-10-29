@@ -1,0 +1,25 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #2c2c3b;
+  }
+  
+  header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+  }
+  
+  header nav ul li {
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  header input[type="text"] {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+  }
+  
