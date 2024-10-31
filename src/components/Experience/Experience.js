@@ -6,11 +6,11 @@ const Experience = () => (
       <div className="timeline">
         <div className="timeline-item">
           <h3>2021 - </h3>
-          <p>Scotnet, Toledo...</p>
+          <p>......</p>
         </div>
         <div className="timeline-item">
           <h3>2021 - </h3>
-          <p>AutoGrid Systems, Naperville...</p>
+          <p>........</p>
         </div>
       </div>
     </section>

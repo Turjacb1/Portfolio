@@ -9,6 +9,7 @@ import Contact from './components/Contact/Contact';
 import SecondSkil from './components/Skills/SecondSkil';
 import MyStatement from './components/MyStatement/MyStatement';
 import Review from './components/Review/Review';
+import ThirdSkill from './components/Skills/ThirdSkill';
 
 const App = () => (
   <div className="App">
@@ -17,6 +18,7 @@ const App = () => (
       <About />
       <Skills />
       <SecondSkil/>
+      <ThirdSkill/>
       <Portfolio />
       <Experience />
       

@@ -1,34 +1,72 @@
 .statement-container {
-    padding: 40px;
-    max-width: 800px;
-    margin: 0 auto;
-    background: linear-gradient(135deg, #f5f5f5, #eaeaea);
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-    border-radius: 12px;
+    padding: 50px;
+    max-width: 850px;
+    margin: 30px auto;
+    background: linear-gradient(135deg, #ffffff, #f0f4f8);
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.15), 0 0 15px rgba(255, 255, 255, 0.5);
+    border-radius: 16px;
     text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.statement-container::before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.4), transparent);
+    transform: rotate(45deg);
+    transition: transform 5s linear;
+    z-index: 1;
+}
+
+.statement-container:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2), 0 0 20px rgba(255, 255, 255, 0.6);
+    background: linear-gradient(135deg, #ffffff, #dbe2ea);
+}
+
+.statement-container:hover::before {
+    transform: rotate(405deg);
 }
 
 .statement-title {
-    font-size: 1.8rem;
+    font-size: 2rem;
     color: #333;
     font-weight: bold;
-    margin-bottom: 20px;
-    text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 25px;
+    text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.2), 0 0 5px rgba(255, 255, 255, 0.5);
+    letter-spacing: 1px;
+    position: relative;
+    z-index: 2;
 }
 
 .statement-body {
-    font-size: 1.1rem;
-    color: #555;
-    line-height: 1.6;
-    padding: 0 15px;
+    font-size: 1.2rem;
+    color: #666;
+    line-height: 1.8;
+    padding: 0 20px;
+    font-style: italic;
+    position: relative;
+    z-index: 2;
 }
 
 @media (max-width: 768px) {
+    .statement-container {
+        padding: 30px;
+    }
+
     .statement-title {
-        font-size: 1.5rem;
+        font-size: 1.6rem;
+        margin-bottom: 18px;
     }
     
     .statement-body {
         font-size: 1rem;
+        padding: 0 15px;
     }
 }
