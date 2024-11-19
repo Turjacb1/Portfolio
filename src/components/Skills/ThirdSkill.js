@@ -55,6 +55,7 @@ const ThirdSkill = () => (
     <h2>Digital Marketing Skill</h2>
     <div className="skills-grid">
       {/* Skill Cards */}
+      
       {[{ name: "Digital Marketing", icon: <SiGoogle />, proficiency: 85 }].map(skill => (
         <SkillCard skill={skill} key={skill.name} />
       ))}

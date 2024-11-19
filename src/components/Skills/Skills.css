@@ -126,7 +126,7 @@ h2 {
 
 .video-frame {
   width: 100%;
-  height: 380px;
+  height: 480px;
   border-radius: 8px;
 }
 
@@ -150,3 +150,4 @@ h2 {
 .hire-link:hover {
   color: #0ea454; /* Darker green on hover */
 }
+

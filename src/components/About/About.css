@@ -49,6 +49,29 @@ button {
   transform: scale(1.1);
 }
 
+.social-icon-container .tooltip {
+  visibility: hidden;
+  opacity: 0;
+  width: max-content;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+  border-radius: 4px;
+  position: absolute;
+  top: 100%; /* Position below the icon */
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 8px;
+  font-size: 12px;
+  transition: opacity 0.3s;
+}
+
+.social-icon-container:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+
 .social-icon {
   font-size: 2rem;
   color: #555;
@@ -61,6 +84,7 @@ button {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 
 .dancing-arrow {
   position: absolute;
