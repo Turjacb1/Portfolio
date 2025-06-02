@@ -10,16 +10,23 @@ import SecondSkil from './components/Skills/SecondSkil';
 import MyStatement from './components/MyStatement/MyStatement';
 import Review from './components/Review/Review';
 import ThirdSkill from './components/Skills/ThirdSkill';
+import VisitorCounter from './components/VisitorCounter/VisitorCounte';
+import AppDevPortolio from './components/AppDevPortfolio/AppDevPortolio';
+import ForthSkill from './components/Skills/ForthSkill';
 
 const App = () => (
   <div className="App">
     <Header />
     <main>
+      <VisitorCounter/>
       <About />
       <Skills />
+      <ForthSkill/>
       <SecondSkil/>
       <ThirdSkill/>
       <Portfolio />
+      <br></br><br></br><br></br>
+      <AppDevPortolio/>
       <Experience />
       
       <br></br>

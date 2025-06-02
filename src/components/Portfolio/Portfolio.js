@@ -38,7 +38,7 @@ const Portfolio = () => {
 
   return (
     <section id="portfolio">
-      <h2>Projects</h2>
+      <h2>Web Development Projects</h2>
       <div className="portfolio-grid">
         {projects.slice(0, visibleProjects).map(project => (
           <a key={project.id} href={project.link} target="_blank" rel="noopener noreferrer">
