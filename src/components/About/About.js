@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css';
-import myimage from '../Image/me.jpg';
+import myimage from '../Image/me2.jpg';
 import { FaFacebook, FaLinkedin, FaTwitter,FaBeer } from 'react-icons/fa';
 import { FaArrowRight } from 'react-icons/fa'; // Import the arrow icon
 import { SiHackerrank, SiLeetcode, SiCodeforces } from 'react-icons/si'; // For HackerRank, LeetCode, and Beecrowd
@@ -57,7 +57,7 @@ const About = () => (
         </div>
       </div>
     </div>
-    <img src={myimage} alt="Turja Chakraborty" className="profile-img" />
+    <img src={myimage} width={1500} alt="Turja Chakraborty" className="profile-img" />
   </section>
 );
 

@@ -8,6 +8,7 @@ import project5 from '../Image/5pro.png';
 import project6 from '../Image/6pro.png';
 import project7 from '../Image/7pro.png';
 import project8 from '../Image/8pro.png';
+import project9 from '../Image/9_Pro.png';
 
 
 const Portfolio = () => {
@@ -23,7 +24,8 @@ const Portfolio = () => {
     { id: 5, src: project4, alt: 'Project 5', link: 'https://link-to-project4.com', title: 'Top Businessmen' },
     { id: 6, src: project5, alt: 'Project 6', link: 'https://link-to-project5.com', title: 'Country Information' },
     { id: 7, src: project6, alt: 'Project 7', link: 'https://link-to-project6.com', title: 'Pin Matcher' },
-    { id: 8, src: project3, alt: 'Project 8', link: 'https://link-to-project7.com', title: 'Money Transaction' }
+    { id: 8, src: project3, alt: 'Project 8', link: 'https://link-to-project7.com', title: 'Money Transaction' },
+     { id: 8, src: project9, alt: 'Project 9', link: 'https://chandpur-zila.web.app/', title: 'Chandpur Zila' }
   ];
 
   // Handle "View More" click to show more projects
