@@ -13,6 +13,8 @@ import ThirdSkill from './components/Skills/ThirdSkill';
 import VisitorCounter from './components/VisitorCounter/VisitorCounte';
 import AppDevPortolio from './components/AppDevPortfolio/AppDevPortolio';
 import ForthSkill from './components/Skills/ForthSkill';
+import Certificate from './components/Certificate/Certificate';
+
 
 const App = () => (
   <div className="App">
@@ -27,6 +29,7 @@ const App = () => (
       <Portfolio />
       <br></br><br></br><br></br>
       <AppDevPortolio/>
+      <Certificate/>
       <Experience />
       
       <br></br>
