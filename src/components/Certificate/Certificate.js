@@ -7,6 +7,8 @@ import nasa from "../Image/Nasa.png"
 import AiImage from "../Image/AI.png"
 import commuincation from "../Image/Communication.png"
 import digitaImage from "../Image/Digital.png"
+import cybar from "../Image/networking.png"
+import phython from "../Image/Phython.png"
 
 const certificates = [
   {
@@ -55,6 +57,20 @@ const certificates = [
     issuer: "E-shikhon",
     date: "March 2023",
     image: digitaImage,
+  },
+
+  {
+    title: " Introduction to Cybersecurity",
+    issuer: "Cisco Networking Academy",
+    date: "November 2025",
+    image: cybar,
+  },
+
+  {
+    title: " Python Essentials 1",
+    issuer: "Cisco Networking Academy",
+    date: "November 2025",
+    image: phython,
   },
 
 ];
