@@ -8,7 +8,8 @@ import AiImage from "../Image/AI.png"
 import commuincation from "../Image/Communication.png"
 import digitaImage from "../Image/Digital.png"
 import cybar from "../Image/networking.png"
-import phython from "../Image/Phython.png"
+import python from "../Image/Phython.png"
+import robotics from "../Image/Robotics.png"
 
 const certificates = [
   {
@@ -70,8 +71,17 @@ const certificates = [
     title: " Python Essentials 1",
     issuer: "Cisco Networking Academy",
     date: "November 2025",
-    image: phython,
+    image: python,
   },
+
+  {
+    title: " Line Follower Challenge",
+    issuer: "BUET Robotics Society",
+    date: "February 2026",
+    image: robotics,
+  },
+
+
 
 ];
 
